@@ -145,6 +145,7 @@
     width: 100%;
     height: auto;
     border-radius: 50%;
+    transition: transform 0.2s ease;
 }
 
 .membros__equipes__item,
@@ -154,6 +155,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.carousel-inner {
+    transition-duration: 0.5s;
 }
 
 .footer {
@@ -192,6 +197,10 @@ form button {
         margin-top: 0;
     }
 
+    .header__logo {
+        margin-left: 20px;
+    }
+
     .texto-formatado {
         font-size: 14px;
         width: 80%;
@@ -203,6 +212,10 @@ form button {
 
     .section__banner {
         margin: 0 auto;
+    }
+
+    form button {
+        width: 20%;
     }
     
 }
