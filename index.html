@@ -9,531 +9,366 @@
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700&display=swap" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <title>História da computação</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header class="header">
-        <img src="/images/favicon.png" alt="Logo" class="header__logo">
-        <nav class="header__nav">
-            <a href="#">Home</a>
-            <a href="#">História da Computação</a>
-            <a href="#">Membros da Equipe</a>
-            <a href="#">Contatos</a>
+    <header class="header__principal navbar navbar-expand-sm">
+        <a class="navbar-brand" href="#">
+            <img src="/images/favicon.png" alt="Logo" class="header__logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="header__principal__nav collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#historia-computacao">História da Computação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#membros-equipe">Membros da Equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contatos">Contatos</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <section>
-        <div class="section__div">
-        <div class="banner">
-            <img src="/images/historia-do-computador.webp" alt="Imagem contendo evoluções humanas"
-                class="section__banner">
-        </div>
-        <div>
-            <h1 class="titulo-banner">Explorando a História e Evolução dos Ambientes Computacionais</h1>
-            <h2 class="subtitulo-banner">Desbravando a Trajetória e Avanço dos Ambientes Computacionais</h2>
-        </div>
-    </div>
-    </section>
-    <section class="container-fluid py-6 py-md-7">
-        <div class="row justify-content-center">
-            <div class="col-md-10 pl-md-4">
-                <div class="texto-formatado">
-                    <div class="mb-5">
-                        <p><b>A história do computador começou ainda nos anos 40, quando realizar cálculos de forma mais
-                                rápida e efetiva se tornou uma necessidade. </b>Desde então, essa trajetória é marcada
-                            por avanços constantes e cada vez mais surpreendentes, moldando o mundo extremamente digital
-                            no qual vivemos hoje.<br></p>
-                        <p>Para se ter ideia disso, atualmente os computadores estão tão integrados no nosso dia a dia
-                            que a maioria das pessoas nem imagina como seria realizar algumas tarefas sem eles. Por
-                            isso, preparamos este texto sobre a evolução dessa máquina tão incrível!</p>
-                        <p>Ao traçarmos essa linha do tempo, <b>destacamos conquistas que foram desde simples operações
-                                aritméticas até o surgimento da inteligência artificial.</b> Muito além de uma viagem
-                            pelo tempo, essa é a prova da incessante busca dos seres humanos pelo conhecimento e pela
-                            inovação. Continue a leitura e fique por dentro!</p>
-                        <h2>A história do computador</h2>
-                        <p><b>A linha do tempo dos computadores começou devido a uma grave crise no processamento de
-                                números</b>, graças a um “boom” de crescimento populacional nos Estados Unidos, em 1880.
-                        </p>
-                        <p>O problema foi o seguinte: o censo dos EUA demorou mais de sete anos para conseguir registrar
-                            os resultados desse crescimento e essa dificuldade levou o governo a começar as buscas por
-                            novas maneiras de realizar esse tipo de trabalho.</p>
-                        <p>Contudo, <b>podemos considerar que de acordo com a história do computador, a mais antiga
-                                ideia sobre essa máquina remota da invenção do <a
-                                    href="https://brasilescola.uol.com.br/matematica/o-abaco.htm">ábaco</a> (2500 a.C),
-                                primeira calculadora do mundo. Depois, Pascal construiu a primeira calculadora mecânica
-                                (1642) — conhecida como <a
-                                    href="https://pt.wikipedia.org/wiki/Pascalina">Pascalina</a></b> —, capaz de fazer
-                            cálculos de soma e subtração.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-0"
-                            src="https://apeti.org.br/upload/2023/12/maquina-de-pascal.jpg" data-midia="841"></div>
-                    <div class="mb-5">
-                        <p>Após a contribuição do alemão Gottfried Wilhelm Leibniz, Pascalina passa a contar com
-                            operações de multiplicação e divisão.</p>
-                        <p>&nbsp;</p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-1"
-                            src="https://apeti.org.br/upload/2023/12/maquina-leibniz.jpg" data-midia="842"></div>
-                    <div class="mb-5">
-                        <p>A partir de então, as evoluções da linha do tempo dos computadores foram acontecendo de forma
-                            constante e em ritmo mais acelerado. </p>
-                        <h2>Uma breve linha do tempo da história do computador</h2>
-                        <p><b>• 1801</b></p>
-                        <p>O mecânico e inventor francês Joseph Marie Jacquard desenvolve <b>um equipamento semelhante a
-                                um tear, que utiliza cartões de madeira perfurados para tecer desenhos em tecidos</b>.
-                            Isso é importante porque dentro da história do computador, as primeiras máquinas também
-                            utilizavam cartões perfurados, semelhante à técnica aplicada por Jacquard.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-2"
-                            src="https://apeti.org.br/upload/2023/12/jacquard.jpg" data-midia="843"></div>
-                    <div class="mb-5">
-                        <p><b>• 1822</b></p>
-                        <p>O matemático inglês Charles Babbage inventou uma <b>máquina movida a vapor inovadora, que
-                                teoricamente seria capaz de calcular tabelas de números</b>. Apesar de ter tido apoio do
-                            governo para construí-la, a calculadora só foi construída e testada em 1991, pelo Science
-                            Museum de Londres.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-3"
-                            src="https://apeti.org.br/upload/2023/12/babbage.jpg" data-midia="844"></div>
-                    <div class="mb-5">
-                        <p><b>• 1890</b></p>
-                        <p>Herman Hollerith projetou um <b>sistema de cartões perfurados (precursores das memórias dos
-                                computadores)</b>, utilizados para calcular o censo de 1880, que citamos anteriormente.
-                        </p>
-                        <p>Se antes o prazo de cálculo era de sete anos, com a máquina de Hollerith, foi possível
-                            cumprir a tarefa em apenas três anos, o que poupou US$ 5 milhões do governo.</p>
-                        <p>Depois disso, Herman se tornou um dos fundadores da IBM (International Business Machines
-                            Corporation), empresa de TI que deu início ao processamento de dados.</p>
-                        <p><b>• 1938</b></p>
-                        <p>Neste ano, Alan Turing apresenta a noção de uma <b>máquina universal (<a
-                                    href="https://revistagalileu.globo.com/Tecnologia/noticia/2018/03/origem-da-computacao-maquina-de-turing-e-construida-em-madeira.html">Máquina
-                                    de Turing</a>), capaz de registrar qualquer coisa que seja computável.&nbsp;</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-4"
-                            src="https://apeti.org.br/upload/2023/12/maquina-de-turing.jpg" data-midia="845"></div>
-                    <div class="mb-5">
-                        <h3>História do computador: primeira geração de computadores</h3>
-                        <p><b>• 1942 </b></p>
-                        <p>Surge, em 1942, <b>a primeira geração de computadores, que utilizavam válvulas para fazer
-                                cálculos</b>. No entanto, apesar de serem instrumentos que ajudam a sociedade, eles
-                            davam muita manutenção.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-5"
-                            src="https://apeti.org.br/upload/2023/12/valvulas.jpg" data-midia="846"></div>
-                    <div class="mb-5">
-                        <p><b>&nbsp;• 1945</b></p>
-                        <p>John Mauchly e J. Presper Eckert, dois professores da Universidade da Pensilvânia,
-                            construíram <b>o avô dos computadores digitais, o <a
-                                    href="https://tecnoblog.net/especiais/eniac-primeiro-computador-do-mundo-completa-65-anos/">ENIAC</a>
-                                (Integrador Numérico Eletrônico e a Calculadora).</b></p>
-                        <p>Com uma estrutura gigantesca, o equipamento tinha aproximadamente 18 mil tubos de vácuo,
-                            pesava 30 toneladas e preenchia uma sala inteira com seus 180 metros quadrados.</p>
-                        <p>Ainda nesse ano, um inseto ficou preso dentro dos componentes de um computador, originando o
-                            <a
-                                href="https://www.hostinger.com.br/tutoriais/o-que-e-bug#:~:text=Origem%20do%20Termo%20Bug,-A%20palavra%20inglesa&amp;text=O%20famoso%20inventor%20Thomas%20Edison,pequenas%20falhas%20como%20%E2%80%9Cbugs%E2%80%9D.">primeiro
-                                bug da históri</a>a. Inclusive, o nome veio desse acontecimento, já que “bug” é uma
-                            palavra em inglês que significa “inseto”.</p>
-                        <p><b>• 1946</b></p>
-                        <p>Graças ao sucesso de ENIAC, Mauchly e Presper receberam um financiamento do Census Bureau
-                            para construir <b>o primeiro computador para aplicações comerciais e governamentais,
-                                intitulado <a
-                                    href="https://historiadocomputador.com/univac-o-primeiro-computador-comercial/">UNIVAC</a>.&nbsp;</b>
-                        </p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-6"
-                            src="https://apeti.org.br/upload/2023/12/computador-comerciais-e-governamentais.jpg"
-                            data-midia="847"></div>
-                    <div class="mb-5">
-                        <h3>História do computador: segunda geração de computadores</h3>
-                        <p><b>• 1947</b></p>
-                        <p>William Shockley, John Bardeen e Walter Brattain do Bell Laboratories inventam o <a
-                                href="https://brasilescola.uol.com.br/fisica/transistor.htm#:~:text=Transistor%20%C3%A9%20um%20dispositivo%20semicondutor,corrente%20el%C3%A9trica%20em%20circuitos%20eletr%C3%B4nicos.">transistor</a>,
-                            feito que marca o início da segunda geração de computadores. Na época, <b>o transistor
-                                conseguia fazer 10 mil vezes mais processamentos que a válvula. Também foi nesse período
-                                que o computador foi se tornando menor.</b></p>
-                        <p>Foi a partir disso que um computador deixou de ocupar várias salas para ter apenas o tamanho
-                            de uma secretaria.</p>
-                        <p><b>• 1953</b></p>
-                        <p>Nesse ano, Grace Hopper, analista de sistemas da Marinha dos Estados Unidos, desenvolveu a
-                            <b>primeira linguagem de computador (conhecida como COBOL).</b></p>
-                        <p>Além disso, Thomas Johnson Watson Jr., filho do CEO da IBM, criou o <b>IBM 701 EDPM</b> para
-                            ajudar as Nações Unidas durante a guerra.</p>
-                        <h3>História do computador: terceira geração de computadores</h3>
-                        <p><b>• 1958</b></p>
-                        <p>Jack Kilby e Robert Noyce criaram <b>o primeiro chip (circuito integrado) de computador,
-                                possibilitando a diminuição do tamanho dos equipamentos eletrônicos </b>e marcando,
-                            dentro da história do computador, o começo da terceira geração destas máquinas.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-7"
-                            src="https://apeti.org.br/upload/2023/12/3-geracao.jpg" data-midia="848"></div>
-                    <div class="mb-5">
-                        <p><b>• 1964</b></p>
-                        <p>Douglas Engelbart, informático estadunidense, mostra um <b>protótipo do computador
-                                moderno</b>, que contava com um mouse e uma interface gráfica do usuário (GUI).</p>
-                        <p><b>• 1969</b></p>
-                        <p><b>Criação da primeira rede de computadores</b>, a ARPAnet (sigla para “Advanced Research
-                            Projects Agency Network” ou, em português, Rede da Agência de Pesquisas em Projetos
-                            Avançados). </p>
-                        <p>Essa rede de informações do Departamento de Defesa norte-americano interligava empresas e
-                            universidades e, posteriormente, deu origem à internet.</p>
-                        <p><b>• 1970</b></p>
-                        <p>A Intel (recém-formada) lança <b>o primeiro chip de memória dinâmica de acesso (DRAM)</b>, o
-                            Intel 1103.</p>
-                        <p><b>• 1971</b></p>
-                        <p>Alan Shugart e engenheiros da IBM inventam <b>o “disquete”, primeira forma de
-                                compartilhamento de dados entre computadores.</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-8"
-                            src="https://apeti.org.br/upload/2023/12/disquete.jpg" data-midia="849"></div>
-                    <div class="mb-5">
-                        <p><b>• 1973</b></p>
-                        <p>Robert Metcalfe e David Boggs criam <b>a Ethernet, tecnologia que permitia a conexão entre
-                                vários computadores e outro hardware.</b></p>
-                        <h3>História do computador: quarta geração de computadores</h3>
-                        <p><b>• 1974 - 1977</b></p>
-                        <p>A Intel projeta <b>o microprocessador 8080 (que origina os microcomputadores)</b>. Além
-                            disso, <b>vários computadores pessoais chegam ao mercado</b>, como: Scelbi, Mark-8 Altair,
-                            IBM 5100, TRS-80 da Radio Shack e o Commodore PET. Inicia-se, então, a quarta geração dentro
-                            da história do computador.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-9"
-                            src="https://apeti.org.br/upload/2023/12/trs_80.jpg" data-midia="850"></div>
-                    <div class="mb-5">
-                        <p><b>• 1975 </b></p>
-                        <p>Surge o <b>Altair 8080, primeiro kit de minicomputadores do mundo.</b> Então, Paul Allen e
-                            Bill Gates escrevem softwares para o Altair, usando a nova linguagem BASIC. Depois desse
-                            sucesso, Paul e Bill formam sua própria empresa de software, a <b>Microsoft</b>.</p>
-                        <p><b>• 1976</b></p>
-                        <p>Steve Jobs e Steves e Woznick lançam <b>o primeiro microcomputador comercial</b>, o Apple I.
-                        </p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-10"
-                            src="https://apeti.org.br/upload/2023/12/apple-i.jpg" data-midia="851"></div>
-                    <div class="mb-5">
-                        <p><b>• 1977</b></p>
-                        <p>Jobs e Wozniak incorporam a Apple e logo apresentam o<b> Apple II,</b> que contava com
-                            gráficos coloridos e possuía uma unidade de cassete de áudio para armazenamento.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-11"
-                            src="https://apeti.org.br/upload/2023/12/apple-ii.jpg" data-midia="852"></div>
-                    <div class="mb-5">
-                        <p><b>• 1981 </b></p>
-                        <p><b>A IBM apresenta seu microcomputador — Acorn —</b> com o sistema operacional elaborado pela
-                            Microsoft (MS-DOS), chip Intel, monitor colorido opcional e dois disquetes.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-12"
-                            src="https://apeti.org.br/upload/2023/12/acorn.jpg" data-midia="853"></div>
-                    <div class="mb-5">
-                        <p>A Sears &amp; Roebuck e a Computerland passam a vender o Acorn, marcando <b>a primeira vez na
-                                história do computador que um computador é comercializado por meio de distribuidores
-                                externos</b>. Também é com o Acorn que o termo “PC” se populariza.</p>
-                        <p><b>• 1983</b></p>
-                        <p>O Gavilan SC, desenvolvido por <a
-                                href="https://en.wikipedia.org/wiki/Manuel_Fernandez_(businessman)">Manuel (Manny)
-                                Fernandez</a>, é <b>o primeiro computador portátil a ser comercializado como um
-                                “laptop”.</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-13"
-                            src="https://apeti.org.br/upload/2023/12/gavilan-sc.jpg" data-midia="854"></div>
-                    <div class="mb-5">
-                        <p><b>• 1984</b></p>
-                        <p>A Apple lançou o<b> <a href="https://pt.wikipedia.org/wiki/Macintosh">Macintosh</a>, primeiro
-                                computador que todas as pessoas o pudessem utilizar e que contava com ícones e
-                                mouse.</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-14"
-                            src="https://apeti.org.br/upload/2023/12/macintosh.jpg" data-midia="855"></div>
-                    <div class="mb-5">
-                        <p><b>• 1985 </b></p>
-                        <p>A Microsoft lança o<b> Windows para o PC</b> — que só vai ser bem-sucedido em sua versão 3.0
-                            (1990) — e a Commodore revela o <b>Amiga 1000</b>, que possui recursos avançados de áudio e
-                            vídeo.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-15"
-                            src="https://apeti.org.br/upload/2023/12/windoes-1.jpg" data-midia="856"></div>
-                    <div class="mb-5">
-                        <p>Também é nesse ano que o primeiro nome de domínio pontocom é registrado, anos antes da World
-                            Wide Web marcar o início da história da internet.</p>
-                        <p><b>• 1986</b></p>
-                        <p>Compaq lança o<b> Deskpro 386,</b> com arquitetura de 32 bits, capaz de oferecer uma
-                            velocidade comparável aos mainframes.</p>
-                        <h3>História do computador: quinta geração de computadores</h3>
-                        <p><b>• 1990</b></p>
-                        <p>Tim Berners-Lee, pesquisador do CERN, desenvolve a <b>HTML (HyperText Markup Language)</b>,
-                            originando a World Wide Web. Inicia-se, então, a quinta geração dentro da história do
-                            computador.</p>
-                        <p><b>• 1992</b></p>
-                        <p>A Intel lança o <b>microprocessador Pentium</b>, que avança no uso de gráficos e música em
-                            computadores.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-16"
-                            src="https://apeti.org.br/upload/2023/12/intel-pentium.jpg" data-midia="857"></div>
-                    <div class="mb-5">
-                        <p><b>• 1994</b></p>
-                        <p><b>Os computadores se tornam máquinas de jogos </b>como “Command &amp; Conquer”, “Little Big
-                            Adventure”, “Alone in the Dark 2”, “Theme Park” e muitos outros.</p>
-                        <p><b>• 1996</b></p>
-                        <p>Sergey Brin e Larry Page lançam o mecanismo de <b>busca do Google</b>.</p>
-                        <p><b>• 1997</b></p>
-                        <p><b>A Microsoft investe US$ 150 milhões na Apple</b>, que estava com dificuldades na época.
-                        </p>
-                        <p><b>• 1998</b></p>
-                        <p>A Intel lança o <b>Pentium II</b>.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-17"
-                            src="https://apeti.org.br/upload/2023/12/pentium-ii.jpg" data-midia="858"></div>
-                    <div class="mb-5">
-                        <p><b>• 1999</b></p>
-                        <p>O termo Wi-Fi se populariza e os <b>usuários passam a se conectar à internet sem fio</b>.
-                            Além disso, a Intel lança o <b>Pentium III.</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-18"
-                            src="https://apeti.org.br/upload/2023/12/pentium-iii.jpg" data-midia="859"></div>
-                    <div class="mb-5">
-                        <p><b>• 2001</b></p>
-                        <p>A Apple lança o <b>Mac OS X</b>, sistema operacional que conta com uma arquitetura de memória
-                            protegida e multitarefas preventivas. No mesmo ano, a Microsoft lança o <b>Windows XP</b>.
-                        </p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-19"
-                            src="https://apeti.org.br/upload/2023/12/windows-xp.jpg" data-midia="860"></div>
-                    <div class="mb-5">
-                        <p><b>• 2003</b></p>
-                        <p>O <b>Athlon 64 da AMD,</b> primeiro processador de 64 bits, <b>passa a ser
-                                comercializado.</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-20"
-                            src="https://apeti.org.br/upload/2023/12/amd-64.jpg" data-midia="861"></div>
-                    <div class="mb-5">
-                        <p><b>• 2004</b></p>
-                        <p>É lançado o navegador de <b>Web Firefox 1.0, da Mozilla</b>, desafiando o Internet Explorer,
-                            da Microsoft. Também foi nesse ano que foi lançado o <b>Orkut e o Facebook.</b></p>
-                        <p><b>• 2005</b></p>
-                        <p>Ano em que o <b>YouTube é lançado e o Google compra o Android</b> (sistema operacional para
-                            celular).</p>
-                        <p><b>• 2006</b></p>
-                        <p>A Apple lança o seu <b>primeiro computador móvel com núcleo dual baseado na Intel</b> — o
-                            MacBook Pro — e um iMac com processador Intel. Além disso, a Nintendo lança o <b>console de
-                                videogame Wii.</b></p>
-                        <p><b>• 2007</b></p>
-                        <p>O<b> iPhone</b> é lançado e começa a disponibilizar muitas funções do computador para o
-                            smartphone.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-21"
-                            src="https://apeti.org.br/upload/2023/12/iphone.jpg" data-midia="862"></div>
-                    <div class="mb-5">
-                        <p><b>• 2009</b></p>
-                        <p>A Microsoft lança o <b>Windows 7</b>, sistema que já conta com a capacidade de fixar
-                            aplicativos na barra de tarefas e avança em diversos recursos, como no reconhecimento de
-                            toque e manuscrito.</p>
-                        <p><b>• 2010</b></p>
-                        <p>A Apple lança o <b>iPad</b>, transformando completamente a forma como todos enxergavam a
-                            mídia e iniciando o segmento de computadores tablets inativos.</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-22"
-                            src="https://apeti.org.br/upload/2023/12/ipad.jpg" data-midia="863"></div>
-                    <div class="mb-5">
-                        <p><b>• 2011</b></p>
-                        <p> O Google lança um laptop que executa o Google Chrome OS, o <b>Chromebook.</b></p>
-                        <p><b>• 2012</b></p>
-                        <p> O Facebook chega ao marco de 1 bilhão de usuários.</p>
-                        <p><b>• 2015</b></p>
-                        <p> A Microsoft lança o <b>Windows 10</b> e a Apple lança o primeiro<b> Apple Watch.&nbsp;</b>
-                        </p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-23"
-                            src="https://apeti.org.br/upload/2023/12/primeiro-apple-watch.jpg" data-midia="836"></div>
-                    <div class="mb-5">
-                        <p><b>• 2016</b></p>
-                        <p>Ano em que o <b>primeiro computador quântico reprogramável</b> — capaz de <a
-                                href="https://apeti.org.br/blog/linguagens-de-programacao-conheca-as-10-mais-utilizadas">programar</a>
-                            novos algoritmos em seus sistemas — foi criado. </p>
-                        <p><b>•&nbsp; 2017</b></p>
-                        <p>A Agência de Projetos de Pesquisa Avançada de Defesa (DARPA) começa a desenvolver um
-                            <b>programa de “Informática Molecular”</b>, também conhecido como <a
-                                href="https://pt.wikipedia.org/wiki/Bioinform%C3%A1tica">Bioinformática</a>, que usa
-                            moléculas como computadores.</p>
-                        <p><b>• 2019</b></p>
-                        <p>Em um marco histórico para a computação quântica, a IBM anunciou, durante a CES 2019, o
-                            <b>lançamento do <a
-                                    href="https://www.techtudo.com.br/noticias/2019/01/ibm-anuncia-primeiro-computador-quantico-para-uso-comercial-ces2019.ghtml">primeiro
-                                    computador quântico comercia</a>l.</b></p>
-                        <p>Esse avanço significativo representou a concretização de anos de pesquisa e sinalizou uma
-                            nova era na computação, na qual as capacidades quânticas prometem resolver problemas
-                            complexos de forma exponencialmente mais rápida do que os computadores clássicos. </p>
-                        <p>Essa iniciativa da IBM, além de reforçar a crescente maturidade da computação quântica, abre
-                            portas para a aplicação prática dessas poderosas máquinas em setores como criptografia,
-                            simulações químicas e otimização de processos.&nbsp;</p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-24"
-                            src="https://apeti.org.br/upload/2023/12/computador-quantico.png" data-midia="837"></div>
-                    <div class="mb-5">
-                        <h2>A era dos supercomputadores</h2>
-                        <p>No cenário tecnológico atual, a busca por maior poder de processamento atingiu níveis
-                            extraordinários com o surgimento dos <b>supercomputadores</b>. Essas máquinas<b> ultrapassam
-                                as capacidades dos computadores convencionais, impulsionando pesquisas científicas,
-                                simulações complexas e avanços em <a
-                                    href="https://apeti.org.br/blog/rio-preto-tech-summit-discute-avancos-e-tendencias-da-inteligencia-artificial">inteligência
-                                    artificial</a>. </b></p>
-                        <p>Vamos explorar os principais <a
-                                href="https://www.tecmundo.com.br/produto/273629-10-supercomputadores-rapidos-mundo.htm">supercomputadores
-                                do mundo</a> e, em particular, destacar a notável contribuição do Brasil nessa linha do
-                            tempo dos computadores.</p>
-                        <h3>Os gigantes mundiais da computação</h3>
-                        <p><b>Fugaku (Japão)</b></p>
-                        <p><br></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-25"
-                            src="https://apeti.org.br/upload/2023/12/fugaku.png" data-midia="838"></div>
-                    <div class="mb-5">
-                        <p>O supercomputador <a
-                                href="https://www.techtudo.com.br/noticias/2021/11/computador-mais-poderoso-do-mundo-veja-o-que-fugaku-e-capaz-de-fazer.ghtml">Fugaku</a>,
-                            de tecnologia japonesa, é um gigante no mundo da computação. Desenvolvido pelo Instituto
-                            RIKEN e pela Fujitsu, ele assume a posição de <b>líder mundial em desempenho. </b></p>
-                        <p>Equipado com processadores ARM A64FX, o Fugaku é um exemplo de arquitetura avançada, capaz de
-                            realizar incríveis 442 <a
-                                href="https://www.sidi.org.br/o-que-e-petaflops-e-como-ela-esta-relacionada-ao-futuro-da-ia/">petaflops</a>,
-                            ou seja, 442 quatrilhões de operações por segundo.</p>
-                        <p>Dessa forma, o Fugaku está comprometido com uma variedade de pesquisas, incluindo simulações
-                            de desastres naturais, modelagem climática e <a
-                                href="https://apeti.org.br/blog/aplicacao-da-tecnologia-na-saude-importancia-e-exemplos">descobertas
-                                na área da saúde</a>.</p>
-                        <p><b>Summit (Estados Unidos)</b></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-26"
-                            src="https://apeti.org.br/upload/2023/12/summit.png" data-midia="839"></div>
-                    <div class="mb-5">
-                        <p>O <a
-                                href="https://www.techtudo.com.br/noticias/2018/06/ibm-cria-summit-supercomputador-mais-rapido-do-mundo-de-200-petaflops.ghtml">Summit</a>,
-                            localizado no Laboratório Nacional de Oak Ridge, nos Estados Unidos, é um marco de
-                            eficiência e desempenho. Desenvolvido pela IBM, utiliza uma arquitetura híbrida, combinando
-                            processadores IBM POWER9 e aceleradores NVIDIA Volta. </p>
-                        <p>Além disso, sua capacidade de processamento atinge cerca de 200 petaflops, tornando-o uma
-                            ferramenta vital para pesquisas em física, biologia, medicina e outras áreas científicas
-                            avançadas. </p>
-                        <p>O Summit destaca-se também por sua eficiência energética, demonstrando que a busca por
-                            desempenho pode ocorrer em harmonia com a sustentabilidade.</p>
-                        <p><b>Sierra (Estados Unidos)</b></p>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-27"
-                            src="https://apeti.org.br/upload/2023/12/sierra.png" data-midia="840"></div>
-                    <div class="mb-5">
-                        <p>O supercomputador <a href="https://www.techtudo.com.br/tudo-sobre/macos-sierra/">Sierra</a>,
-                            situado no Laboratório Nacional Lawrence Livermore, nos Estados Unidos, é um exemplo de
-                            <b>poder computacional direcionado para aplicações específicas. </b></p>
-                        <p><b>Projetado para impulsionar a segurança nacional, </b>o Sierra é crucial para simulações
-                            avançadas em física nuclear e estudos sobre o comportamento de materiais em condições
-                            extremas. </p>
-                        <p>Equipado com processadores IBM POWER9 e GPUs NVIDIA, esse supercomputador é uma peça central
-                            na manutenção do arsenal nuclear dos Estados Unidos, contribuindo significativamente para a
-                            segurança e defesa do país.</p>
-                        <p>Cada um desses supercomputadores representa não apenas um avanço técnico da linha do tempo
-                            dos computadores, mas também um compromisso com a excelência em pesquisas que moldam o
-                            futuro da ciência e da tecnologia.</p>
-                        <h3>O supercomputador brasileiro</h3>
-                    </div>
-                    <div class="mb-5"><img class="img-line img-block-28"
-                            src="https://apeti.org.br/upload/2023/12/captura-de-tela-2023_12_14-154038.png"
-                            data-midia="864"></div>
-                    <div class="mb-5">
-                        <p>O <a href="https://sdumont.lncc.br/machine.php">supercomputador Santos Dumont</a>, <b>uma
-                                conquista do Laboratório Nacional de Computação Científica (LNCC),</b> destaca-se como
-                            um ponto de excelência na cena de supercomputação global. Localizado em Petrópolis, Rio de
-                            Janeiro, o Santos Dumont é uma <b>peça crucial no avanço da pesquisa científica e
-                                tecnológica no Brasil.</b></p>
-                        <p>Equipado com processadores Intel Xeon e GPUs NVIDIA, o <a
-                                href="https://g1.globo.com/tecnologia/noticia/2023/11/22/como-e-o-supercomputador-brasileiro-que-esta-entre-os-mais-rapidos-do-mundo.ghtml">Santos
-                                Dumont</a> possui uma capacidade de processamento impressionante. Seu sistema de
-                            arrefecimento inovador permite que ele alcance um <b>desempenho excepcional, tornando-o
-                                capaz de realizar cálculos complexos e simulações avançadas em uma variedade de áreas,
-                                desde modelagem climática até pesquisas em energia renovável.</b></p>
-                        <p>Além disso, ele é parte integrante da Rede Nacional de Ensino e Pesquisa (RNP), contribuindo
-                            para o desenvolvimento de projetos que abrangem diversas disciplinas. </p>
-                        <p>Ele se destaca por ser uma ferramenta essencial para pesquisadores, cientistas e engenheiros
-                            brasileiros, fornecendo a potência computacional necessária para abordar desafios complexos
-                            e promover inovações em diversas frentes.</p>
-                        <p>Esse supercomputador é um símbolo da capacidade do Brasil de estar na vanguarda da pesquisa
-                            científica e da inovação tecnológica. Por isso, <b>sua contribuição é vital para a
-                                comunidade científica e para o progresso econômico e social do país, consolidando o
-                                Santos Dumont como um ativo valioso para o avanço da nação no cenário global da
-                                supercomputação.</b></p>
-                        <h3>Além da velocidade: impacto nas pesquisas e inovações</h3>
-                        <p>Esses supercomputadores não são meramente medidos pela velocidade, mas pela capacidade de
-                            moldar avanços em diversas disciplinas. Assim, <b>desde a simulação de fenômenos naturais
-                                até a descoberta de novos materiais e medicamentos, essas máquinas representam o auge da
-                                computação, impulsionando a humanidade rumo a novas fronteiras científicas e
-                                tecnológicas. </b></p>
-                        <p>Ou seja, a era dos supercomputadores é um testemunho da incessante busca pela excelência no
-                            universo da computação.</p>
-                        <h2>A história sem fim</h2>
-                        <p>Como você pôde ver, a ideia dos computadores surgiu há muito tempo, como uma forma de
-                            otimizar cálculos e acelerar o cadastro de dados.</p>
-                        <p>Ao conferir a história do computador, percebemos como é incrível o fato de que hoje
-                            carregamos em nossas mãos computadores tão pequenos — afinal, os smartphones não deixam de
-                            ser minicomputadores — que seriam inimagináveis aos pioneiros dessas máquinas.</p>
-                        <p>Novas tecnologias, como a computação quântica, estão no horizonte, prometendo revolucionar
-                            mais uma vez a forma como pensamos sobre computadores e processamento de dados.</p>
-                        <p>Por isso, convidamos você a continuar essa jornada conosco e <a
-                                href="https://apeti.org.br/blog/redes-de-computadores-o-que-sao-e-como-funcionam">conferir
-                                o artigo sobre redes de computadores</a>. <b>Nele, desvendamos mais um capítulo
-                                fascinante na evolução tecnológica, destacando como as redes de computadores têm sido
-                                essenciais para a interconexão global e o compartilhamento de informações.</b></p>
+
+    <section class="banner_principal">
+        <div class="banner_principal_img">
+            <div class="banner">
+                <img src="/images/historia-do-computador.webp" alt="Imagem contendo evoluções humanas" class="section__banner">
+            </div>
+            <div class="banner_overlay">
+                <div class="banner_principal_texto">
+                    <div>
+                        <h1 class="titulo-banner">Explorando a História e Evolução dos Ambientes Computacionais</h1>
+                        <h2 class="subtitulo-banner">Desbravando a Trajetória e Avanço dos Ambientes Computacionais</h2>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="membros-equipe">
+
+    <section class="container-fluid py-6 py-md-7" id="historia-computacao">
+        <div class="row justify-content-center">
+            <div class="col-md-10 pl-md-4">
+                <div class="texto-formatado">
+                    <div class="mb-5">
+                        <p>A evolução dos computadores desde o primeiro computador até os <em>smartphones </em>e os
+                            supercomputadores de hoje em dia se deu em etapas chamadas de gerações.</p>
+                        <p>Existem cinco gerações de computadores, elas são definidas a partir da tecnologia e
+                            componentes empregados: válvulas, transistores, circuitos integrados, microprocessadores e
+                            inteligência artificial, respectivamente.</p>
+                        <p>Cada geração de computadores refere-se a um período em que uma tecnologia com capacidades e
+                            características semelhantes é lançada no mercado e produzida em larga escala.</p>
+                        <p>Desde os primeiros computadores valvulados, os computadores preservam a mesma arquitetura
+                            fundamental: processador de dados, memória principal, memória secundária e dispositivos de
+                            entrada e saída de dados.</p>
+                        <h2>O primeiro computador e a primeira geração de computadores</h2>
+                        <p>A primeira geração de computadores surgiu em volta de 1940 e durou até 1956. O funcionamento
+                            dos primeiros computadores era conseguido através de válvulas termiônicas (ou, tubos de
+                            vácuo).</p>
+                        <p>Uma válvula, ou tubo de vácuo, é um componente eletrônico em forma de lâmpada, responsável
+                            por amplificar ou modificar um sinal elétrico. Este dispositivo foi fundamental para o
+                            desenvolvimento das telecomunicações e da computação e, na verdade, ainda é usado hoje em
+                            dispositivos como o forno de micro-ondas ou transmissores de radiofrequência.</p>
+                        <figure class="image"><span class="img"><img alt="ENIAC, o primeiro computador" height="487"
+                                    src="https://cdn.diferenca.com/imagens/eniac.jpg" width="685"></span>
+                            <figcaption>ENIAC, o primeiro computador</figcaption>
+                        </figure>
+                        <p>Os computadores de primeira geração conseguiam realizar milhares de cálculos por segundo, mas
+                            só podiam realizar uma operação por vez e consumiam muita energia elétrica.</p>
+                        <p>Eles foram programados em linguagem de máquina, uma linguagem de programação de baixo nível,
+                            e a entrada e saída dos dados era feita a partir de cartões perfurados.</p>
+                        <p>O primeiro computador lançado foi o ENIAC (Electronic Numerical Integrator and Computer ou,
+                            em português, computador e integrador numérico eletrônico), em 1946, e possuía quase 18 mil
+                            tubos de vácuo (17.468).</p>
+                        <div id="div-gpt-ad-1526379221998-0" class="ad-unit ad-unit--pt-br gpt-middle"></div>
+                        <h2>Segunda geração de computadores: diodos e transistores</h2>
+                        <p>De 1956 a 1963, foi a época da segunda geração de computadores, que só foi possível com a
+                            invenção dos diodos e transistores. Isso marcou a substituição dos tubos de vácuo e um
+                            importante avanço no mundo da computação.</p>
+                        <p>O diodo é um semi condutor utilizado para transformar a corrente alternada em corrente
+                            contínua. Já o transistor é um dispositivo que funciona como um regulador da corrente
+                            elétrica, o que permitiu a criação de computadores com maior eficiência energética.</p>
+                        <p>Os computadores de segunda geração não se diferenciaram apenas pela tecnologia e pelo menor
+                            tamanho, mas pela mudança na linguagem de programação, que passou para a linguagem
+                            <em>assembly</em>.
+                        </p>
+                        <p>Essa linguagem é básica e não é portátil, ou seja, não poderia ser usada em outro computador,
+                            mas consome menos recursos que sua antecessora.</p>
+                        <figure class="image"><span class="img"><img alt="PDP-1, computador de segunda geração"
+                                    height="513" src="https://cdn.diferenca.com/imagens/6750065-06ebbae891-c-cke.jpg"
+                                    width="685"></span>
+                            <figcaption>PDP-1, computador de segunda geração</figcaption>
+                        </figure>
+                        <p>Para a inserção de dados, os cartões foram substituídos pelos rolos de fita perfurada.</p>
+                        <p>Um exemplo de computador de segunda geração é o PDP-1, um dispositivo desenvolvido em 1960
+                            para a pesquisa científica e onde o primeiro jogo de videogame da história foi jogado, o
+                            <em>Spacewar!</em>.
+                        </p>
+                        <h2>Terceira geração: circuitos integrados</h2>
+                        <p>De 1964 a 1971, o mercado foi dominado pela terceira geração de computadores, caracterizada
+                            pela incorporação de circuitos integrados que substituíram os transistores.</p>
+                        <p>Um circuito integrado é um <em>chip</em> feito de silício que possui diferentes componentes
+                            que formam uma espécie de circuito em miniatura.</p>
+                        <p>Nesse tipo de computador, os dados de entrada e saída eram gerenciados por dispositivos
+                            periféricos como monitor, teclado ou impressora.</p>
+                        <figure class="image"><span class="img"><img alt="omputador de terceira geração" height="389"
+                                    src="https://cdn.diferenca.com/imagens/6414526-fa24238a41-c-cke.jpg"
+                                    width="799"></span>
+                            <figcaption>IBM 360, utilização de circuitos integrados - terceira geração de computadores
+                            </figcaption>
+                        </figure>
+                        <p>Além disso, generalizou-se o uso de sistemas operacionais, que são um tipo de software que
+                            permite a execução de múltiplas instruções simultaneamente.</p>
+                        <div id="div-gpt-ad-1526377079158-0" class="ad-unit ad-unit--pt-br gpt-middle"></div>
+                        <p>A partir desta geração, linguagens de programação de alto nível começaram a ser utilizadas de
+                            forma massiva como COBOL, FORTAN, Pascal, etc.</p>
+                        <p>Esses tipos de linguagens diferem das linguagens de baixo nível por serem muito mais próximas
+                            da linguagem natural (usada por humanos) do que da linguagem de máquina (código binário).
+                            Além disso, elas são portáteis, portanto, podem ser usados em outros dispositivos.</p>
+                        <p>Um exemplo de computador de terceira geração foi o UNIVAC 1108, uma atualização do UNIVAC de
+                            primeira geração criado na década de 1950.</p>
+                        <h2>Quarta geração: microprocessadores</h2>
+                        <p>A partir de 1971, os computadores deixaram de funcionar com circuitos integrados e
+                            incorporaram os microprocessadores. Um microprocessador é um circuito integrado, mas muito
+                            mais complexo, capaz de gerenciar todas as funções de um computador. É por isso que também é
+                            conhecida como Unidade Central de Processamento ou CPU.</p>
+                        <p>Nessa época a popularização dos disquetes permitiu separar o usuário e programador. Foi
+                            possível copiar <em>softwares </em>em disquetes e distribuí-los, sem a necessidade de
+                            realizar uma programação para cada máquina.</p>
+                        <figure class="image"><span class="img"><img
+                                    alt="Commodore PET 2001, Apple II e TRS-80 Model I - computadores de terceira geração (1977)"
+                                    height="373"
+                                    src="https://cdn.diferenca.com/imagens/computadores-de-terceira-geracao-cke.jpg"
+                                    width="800"></span>
+                            <figcaption>Da esquerda para a direita: Commodore PET 2001, Apple II e TRS-80 Model I -
+                                computadores de quarta geração (1977)</figcaption>
+                        </figure>
+                        <p>A quarta geração de computadores foi caracterizada também por incluir dois tipos de memória:
+                        </p>
+                        <ul>
+                            <li>Memória RAM : armazena os dados do programa temporariamente, enquanto o equipamento está
+                                ligado.</li>
+                            <li>Memória ROM : armazena os dados do programa permanentemente.</li>
+                        </ul>
+                        <p>Esses tipos de computadores usam linguagens de programação de alto nível, como JavaScript,
+                            Python ou Java.</p>
+                        <p>A entrada e saída dos dados são feitas através de dispositivos periféricos como teclado,
+                            scanner, monitor, CDs, DVDs, etc. Além disso, seu tamanho e a diminuição dos custos de
+                            produção fizeram com que esse tipo de computador fosse vendido em massa.</p>
+                        <div id="div-gpt-ad-1526377127345-0" class="ad-unit ad-unit--pt-br gpt-middle"></div>
+                        <p>Um exemplo de computadores de quarta geração seria o Apple Macintosh e os PCs, como os
+                            famosos 286, 386, 486 e 586 da IBM, muito populares na década de 1990.</p>
+                        <h2>Quinta geração: inteligência artificial, computação quântica e nanotecnologia</h2>
+                        <p>A quinta geração de computadores é composta por todos os dispositivos já criados ou em
+                            processo de criação que incorporam tecnologias como inteligência artificial, computação
+                            quântica ou nanotecnologia.</p>
+                        <p>A inteligência artificial permite aos computadores reconhecer e aprender a linguagem humana
+                            de forma autônoma, sem a intervenção do usuário.</p>
+                        <p>A incorporação da tecnologia quântica permitiria aos computadores trabalhar com enormes
+                            quantidades de dados que ainda não são possíveis de processar.</p>
+                        <figure class="image"><span class="img"><img alt="Interior de um computador quântico"
+                                    height="456" src="https://cdn.diferenca.com/imagens/computador-quantico-cke.jpg"
+                                    width="685"></span>
+                            <figcaption>Interior de um computador quântico</figcaption>
+                        </figure>
+                        <p>Já a nanotecnologia favorece a criação de componentes cada vez menores com maior capacidade
+                            de processamento e armazenamento.</p>
+                        <p>A quinta geração de computadores é portátil e se caracteriza pelo fato de que a entrada e
+                            saída de dados podem ser feitas a partir do hardware, mas também a partir do reconhecimento
+                            de voz ou facial.</p>
+                        <figure class="image"><span class="img"><img alt="Mão segurando um smartphone" height="456"
+                                    src="https://cdn.diferenca.com/imagens/smartphone-cke.jpg" width="685"></span>
+                            <figcaption>Os <em>smartphones </em>revolucionaram o modo de uso dos computadores
+                            </figcaption>
+                        </figure>
+                        <p>Um exemplo de computadores de quinta geração são os <em>smartphones</em>, que possuem maior
+                            capacidade de armazenamento e velocidade do que um computador de quarta geração. Além disso,
+                            são pequenos, têm ligação à Internet e reconhecem a linguagem natural e as expressões
+                            faciais.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="membros__equipes" id="membros-equipe">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="1">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="2">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="3">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="4">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="5">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="6">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="7">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="col-3 float-left membros__equipes__item">
+                            <div>
+                                <img class="d-block w-100" src="/images/foto gabriel.jpg" alt="8">
+                            </div>
+
+                            <div class="membros__equipes__item__captions">
+                                <h3>Gabriel Moraes</h3>
+                                <a href="https://github.com/GabrielMorais2">GitHub</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+
 
     </section>
-    <footer class="footer">
 
+    <footer class="footer" id="contatos">
         <div class="container">
 
-          <div class="form-contato">
+            <div class="footer_contato">
 
-            <h3>Deixe seu Feedback</h3>
+                <h3>Deixe seu Feedback</h3>
 
-            <form action="form-group" method="post">
-              <input type="text" class="form-control" name="nome" placeholder="Seu nome" required>
-              <input type="email" class="form-control" name="email" placeholder="Seu email" required>
-              <textarea name="mensagem" class="form-control" placeholder="Sua mensagem" required></textarea>
-              <button type="submit">Enviar</button>
-            </form>
-          </div>
-      
-          <div class="copyright">
-            <p>&copy; 2023 - Todos os direitos reservados.</p>
-            <p>Desenvolvido por <a href="https://github.com/GabrielMorais2">@ Gabriel Moraes</a></p>
-          </div>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" class="form-control" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Endereço de email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Seu email">
+                        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
+                            ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="texto">Descrição</label>
+                        <textarea name="mensagem" class="form-control" placeholder="Sua mensagem" required
+                            rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+                <div class="copyright">
+                    <p>&copy; 2023 - Todos os direitos reservados.</p>
+                    <p>Desenvolvido por <a href="https://github.com/GabrielMorais2">@ Gabriel Moraes</a></p>
+                </div>
+
+            </div>
         </div>
-      </footer>
 
+    </footer>
 </body>
 
 </html>
