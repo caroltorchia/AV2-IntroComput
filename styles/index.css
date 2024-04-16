@@ -155,28 +155,61 @@
     text-align: center;
 }
 
-.membros__equipes {
-    display: block;
-    background-color: var(--primary-color);
-    padding: 40px;
+/* membros da equipe */
+.membros-equipe {
+    background-color: #27374D;
 }
 
-.membros-carousel-item img {
-    max-width: 250px;
-    max-height: 250px;
-    width: 100%;
-    height: auto;
-    border-radius: 50% !important;
-    transition: transform 0.2s ease;
+.membros-equipe h3 {
+    color: var(--text-color) !important;
+    padding: 1rem;
+}
+.card a {
+    background-color: var(--primary-color) ;
+    font-family: var(--font-family);
+    font-size: 14px;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+ }
+
+ .card {
+    border: 0!important;
+    border-radius: 20px !important;
+ }
+ .card img {
+    border-radius: 20px !important;
+ }
+
+ .card-body {
+    border-radius: 20px;
+ }
+
+ .indicators a {
+    font-family: var(--font-family);
+    font-size: 14px;
+    border-radius: 10px;
+ }
+
+.membros__equipes__item__captions_span {
+    padding: 14px;
 }
 
-.membros__equipes__item,
-.membros__equipes__item__captions {
-    color: var(--secondary-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.membros-equipe a:hover {
+   transform: scale(1.1);
+}
+
+.card img {
+    max-height: 350px;
+}
+
+.card-body {
+    background-color: var(--secondary-color);
+}
+
+.membros__equipes__item__captions_b {
+    padding: 1rem;
 }
 
 .carousel-inner {
